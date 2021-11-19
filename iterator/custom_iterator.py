@@ -1,6 +1,12 @@
 # custom iterator
 
 class Squares:
+    """
+    An iterator class
+
+    Construct a square iterator i.e
+    each iteration will give a square result
+    """
     def __init__(self, max_limit):
         self.max = max_limit
 
