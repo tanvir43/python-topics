@@ -19,7 +19,7 @@ class Squares:
 if __name__ == "__main__":
     obj = Squares(5)
     square = iter(obj)
-    
+
     res = next(square)
     print(res) # 0
 
@@ -36,4 +36,4 @@ if __name__ == "__main__":
     print(res) # 16 
 
     res = next(square)
-    print(res) # res = next(square)
+    print(res) # raise StopIteration
