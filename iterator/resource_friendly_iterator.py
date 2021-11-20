@@ -23,16 +23,9 @@ if __name__ == "__main__":
     obj = InfineIterator() # we are not using any resource to store data
     my_iter = iter(obj)
 
-    res = next(my_iter)
-    print(res) # 2
-
-    res = next(my_iter)
-    print(res) # 4
-
-    res = next(my_iter)
-    print(res) # 6
-
-    res = next(my_iter)
-    print(res) # 8
+    print(next(my_iter)) # 2
+    print(next(my_iter)) # 4
+    print(next(my_iter)) # 6
+    print(next(my_iter)) # 8
 
 # so on as its an infinite iterator
