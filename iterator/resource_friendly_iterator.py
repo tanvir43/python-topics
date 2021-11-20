@@ -13,6 +13,7 @@ class InfineIterator:
         self.counter = 2
         return self
 
+    # we are maintaining the state here
     def __next__(self):
         result = self.counter
         self.counter += 2
