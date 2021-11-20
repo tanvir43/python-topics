@@ -20,7 +20,7 @@ class InfineIterator:
 
 if __name__ == "__main__":
 
-    obj = InfineIterator() # we are not using any resource to store data
+    obj = InfineIterator() # we are taking input from __iter__ method
     my_iter = iter(obj)
 
     print(next(my_iter)) # 2
