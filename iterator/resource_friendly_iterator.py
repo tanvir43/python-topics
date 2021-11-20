@@ -20,7 +20,6 @@ class InfineIterator:
         return result
 
 if __name__ == "__main__":
-
     obj = InfineIterator() # we are taking input from __iter__ method
     my_iter = iter(obj)
 
