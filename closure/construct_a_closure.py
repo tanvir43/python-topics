@@ -2,7 +2,7 @@
 # using non local varibles
 
 def enclosed_func(num):
-    def nested_func(nested_num):
+    def nested_func(nested_num): # can use `num` from enclosed function
         return num * nested_num
     return nested_func
 
