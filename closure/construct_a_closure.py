@@ -1,5 +1,6 @@
-# Python closure is concept of enclosing and nested fucntion
-# using non local varibles
+# Python closure is concept of enclosing and nested function
+# using non local varibles to hold some value from the enclosed 
+# function even after execution of the enclosed function
 
 def enclosed_func(num):
     def nested_func(nested_num): # can use `num` from enclosed function
