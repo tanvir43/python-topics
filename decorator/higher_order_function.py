@@ -4,10 +4,10 @@
 
 # A higher order function
 def higher_order_function(func):
-    return func()
+    return func
 
 def my_func():
         print("This is my function")
 
 if __name__ == "__main__":
-    higher_order_function(my_func)
+    higher_order_function(my_func())
